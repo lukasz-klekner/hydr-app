@@ -17,10 +17,10 @@ const localStorageValue = localStorage.getItem(key);
 if (localStorageValue) {
     currentNumberOfGlasses = localStorageValue;
 } else {
-    localStorageValue(key, 0);
+    localStorage.setItem(key, 0);
 }
 
-counter.innerHTML = localStorageValue;
+counter.innerHTML = currentNumberOfGlasses;
 
 buttonAdd.addEventListener('click', () => {
     currentNumberOfGlasses++;
