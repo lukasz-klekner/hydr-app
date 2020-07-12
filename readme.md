@@ -1,12 +1,14 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://lukasz-klekner.github.io/hydr-app/og.png)
 
-# WTF Webpack Starter Kit 
+# HYDR APP
 
-Simple toolkit for your static websites development.
+Simple application HydrApp that counts how many glasses you've drunk.
 
-## How to use it?
+## TOOLS
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- WTF Webpack starterkit
+- PWA
+- HTML + CSS + JS
 
 ## Available scripts
 
